@@ -1,0 +1,182 @@
+body {
+  margin:0;
+}
+
+.mainCard {
+  width: 100%;
+  margin:0;
+  height: 90%;
+}
+
+/* navigation bar */
+
+.nav {
+  background-color: white;
+  font-family: Patua One;
+  color: rgb(0, 0, 0);
+  padding: 1.5vmin 0 1.5vmin 2vmin;
+  box-shadow: 1px 1px 5px 0px gray;
+  margin: 0;
+}
+
+.flexcon {
+  width: 60%;
+  margin-left: 1vmin;
+  margin-right: 3vmin;
+}
+
+.cityname {
+  color: green;
+  margin-left: 3vmin;
+  margin-bottom: -8vmin;
+  font-family: Alatsi;
+  font-size: 12vmin;
+}
+
+
+/* share button style */
+
+.mainCard .share button {
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  width: 10vmin;
+  height: 10vmin;
+  box-shadow: 1px 1px 5px 0px gray;
+  margin: 5vmin;
+  /* position: relative;
+  left: 80%; */
+
+}
+
+
+/* for map image */
+
+.mainCard img {
+  height: 100%;
+  width: 100%;
+}
+
+.mainCard button i {
+  font-size: 5vmin;
+}
+
+/* Input styles */
+
+.mainCard [data-input] {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+input[type="text"] {
+  border: none;
+  border: 3px solid black;
+  outline: none;
+  width: 48%;
+  height: 15vmin;
+  font-size: 5vmin;
+  padding: 2vmin;
+  background-color: inherit;
+  margin: 1vmin;
+  box-sizing: border-box;
+  /* display: inline; */
+  font-family: cabin;
+}
+
+
+input[type="text"]:focus {
+  border: none;
+  background-color: inherit;
+  border: 3px solid green;
+  outline: none;
+  margin: 1vmin;
+  box-sizing: border-box;
+  font-family: cabin;
+}
+
+input[type="submit"]{
+  border: none;
+  width: 47%;
+  height: 15vmin;
+  font-size: 5vmin;
+  background-color: green;
+  color: white;
+  /* display: inline; */
+  font-family: cabin;
+  box-sizing: border-box;
+  margin: 1vmin;
+}
+
+input[type="submit"]:focus {
+  border: none;
+}
+
+
+/* temp result */
+
+.result p {
+  font-family: cabin;
+  margin: 0 0 3vmin 3vmin;
+  font-size: 5vmin;
+  font-weight: bold;
+}
+
+
+.realTemp .temp {
+  font-size: 15vmin;
+  font-family: Acme;
+ 
+
+}
+
+.realTemp .cf1 {
+  font-size: 15vmin;
+  font-family: Acme;
+
+}
+
+
+.result .cf {
+  color: green;
+  background-color: #f1f1f1;
+  font-size: 4vmin;
+  width: 20%;
+  
+  /* height: 4vmin; */
+  border-radius: 1vmin;
+  margin-top: -12vmin;
+  padding: 1vmin;
+  text-align: center;
+  cursor: pointer;
+}
+
+.result .cf1 {
+  font-size: 9vmin;
+  width: 4vmin;
+  height: 4vmin;
+}
+
+.realTemp {
+  display: flex;
+  flex-direction: row;
+}
+
+.realTemp {
+  margin-left: 3vmin;
+  margin-bottom: -12vmin;
+  margin-top: -12vmin;
+}
+
+.stickBottom {
+  position: fixed;
+  bottom: 0;
+  width: inherit;
+  margin-top: 99vmin;
+}
+
+
+.mainInfo1 {
+margin-top:0;
+  margin-bottom: 17vmin;
+}
+
